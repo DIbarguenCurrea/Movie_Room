@@ -1,0 +1,76 @@
+Creacion de Proyecto -- Modulo 2. 
+
+Titulo: Mi sala de Cine. 
+
+Paso a Paso: 
+
+Parte Uno -- Creación de Archivos y dependencias. 
+
+#1. Crear cartepa Styles.
+#2. Crear un Archivo reset.CSS. 
+#3. Crear archivo styles.CSS. 
+#4. Referenciar archivos en index.HTML.
+
+Parte Dos -- Elaboracición Estructura de HTML. 
+
+Ideas y construcción de código:
+
+#1. Elaborar un NAV (barra de navegación) nombres (Inicio - Contacto)
+#2. Buscar un Logo
+#3. Div Peliculas (Seguir estructura de dibujo)
+#4. Div Sugerencias (Seguir estructura de dibujo)
+#5. Footer
+#6. Para Contacto realizar un formulario de PQR (Buscar ejemplo para elaborar estructura del formulario)
+
+
+Parte Tres -- Elaboración de CSS 
+
+#1. Daremos un color oscuro con rojo para reflejar iluminacion de sala de cine. 
+#2. Para las tarjetas daremos colores azules oscuros con bordeo blanco para dar la sensacion de que estan exhibidas en una sala de cine real.
+#3. En las tarjetas de presentacion de los estrenos utilizaremos un movimiendo hacia la derecha.
+
+
+Parte Cuatro -- Elaboraremos ene 
+
+//* BITACORA
+
+Fecha 05 de Feb 2024
+
+Version: .01 
+
+Status: 
+
+1. Se codea los archivos .html, .css, .js, con esto damos un buen arranque al proyecto. 
+
+
+Pendiente: 
+
+1. Realizar ajustes en las tarjetas de las peliculas, ya que al ver la siguiente tarjeta, se modifica automaticamente la informacion de los estilos asignados a: #info-pelicula y #sin-pelicula. 
+
+2. Complementar las sugerencias. 
+
+3. Realizar CSS para el footer. 
+_________________________________________________________________________________________________
+
+Fecha 07 de Feb 2024
+Version: .02
+
+Status: 
+
+1. Realizamos una renderización al archivo index.js el cual nos permitio un codigo mucho más limpio y junto con el AJAX se visualiza mejor la estructura. 
+
+Pendiente: 
+
+2. Ulitizar el Frameworks de CSS - Bootstrap. 
+
+
+Fecha 17 de Feb 2024
+Version: .06
+
+Status: 
+
+1. Mejore bastante el diseño de la página web, hicimos que la página fuera responsive para que cuando la pagina se ponga pequeña las cosas se ajusten y se vean cambio de colores para ver que funciona. 
+
+2. Añadimos más peliculas de la libreria. 
+
+3. Mejore los enlaces de about y contact.

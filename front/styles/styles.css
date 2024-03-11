@@ -1,0 +1,316 @@
+/*Aqui lo que hago es traerme directamente desde la pagina de Fonts de google la font family que usare en toda la página*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Aqui se empieza con todo el body y la parte del header*/ 
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background: #000000;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-radius: 22px;
+}
+
+.logo {
+    font-size: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    padding: 5px 0 0 10px;   
+}
+
+#img-logo {
+    width: 80px;
+    height: auto;
+}
+
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #FF2F28;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 60px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+h1  { 
+    font-size: 80px;    
+    margin: 0;
+    padding: 200px 0px 0px 40px;
+}
+
+h2 {
+    font-size: 45px;    
+    margin: 0;
+    align-items: right;
+    padding: 2%;
+}
+
+/* Contenedor*/
+
+section {
+    background-color: none; 
+    padding: 20px; /* Espacio interno */
+    margin-bottom: 20px; 
+}
+
+#cards-container {
+    padding: 20px 0 0 10px;
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 60px;
+}
+
+/* CSS para las cards-container*/
+.movie-container img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.movie-container{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    z-index: 500;
+    transition: transform 0.3s ease;
+}
+
+.movie-container:hover {
+    transform: scale(1.1);
+}
+
+.movie-container h3 a {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #959595;
+    text-decoration: none;
+    padding: 1px 1px 1px 1px;
+}
+
+.movie-container a:hover {
+    color:#44d4f1
+}
+
+.movie-container h4 {
+    font-size: 22px;
+    color: #e1d1d1;
+    padding: 1px 1px 1px 1px;
+}
+
+.movie-container h5{
+    color: #eee4e4e4;
+    font-size: 17px;
+    padding: 1px 1px 1px 1px;
+    text-align: left;
+    line-height: 1.9;
+    font-weight: normal;
+}
+
+.movie-container button {
+    background-color: whitesmoke; 
+    color: #040404;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-top: 10px;
+}
+
+
+
+/*Aquí los estilos de página de Create Movie*/
+
+.formulario {
+    font-size: 80px;    
+    margin: 0;
+    padding: 200px 0px 0px 40px;
+    text-align: center;
+}
+
+.lead { 
+    padding: 10px 50px;
+    text-align: center;
+}
+
+#CreateMovie {
+    display: flex;
+}
+
+#formCreateMovie { 
+    font-size: 20px;
+}
+
+#addActivityButton {
+    display: flex;
+}
+
+.button2{
+    background-color: whitesmoke; 
+    color: #040404;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-top: 10px;
+}
+  
+.button2:hover {
+    background-color: #c83d16;
+}
+
+
+/*Aquí los estilos de página Contacto*/
+textarea {
+    resize: none;
+    width: auto;
+    padding: 8px;
+}
+
+#contactContainer {
+    display: flex;
+}
+
+#contactForm { 
+    background-color: none;
+    padding: 50px 0 0 0;
+    font-size: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 100px;
+}
+
+.column p {
+    font-size: 18px;
+}
+
+.boxInfo {
+    margin-bottom: 12px;
+}
+
+h5 {
+    color: orangered;
+    font-size: 3.95rem;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding: 50px;
+}
+
+.button{
+    background-color: whitesmoke; 
+    color: #040404;
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-top: 10px;
+}
+  
+.button:hover {
+    background-color: #ffc700;
+}
+
+.social-media {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    margin-right: 40px;
+    transition: color 0.3s ease;
+}
+
+/*Estilos para el Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/*Aqui voy hacer la pagina responsive*/
+@media (max-width:991px) {
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border: 1px solid #FFFFFF;
+        border-radius: 20px;
+        background-color: #040404;
+        color: #000000;
+        display: none;
+        z-index: 1000;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        color: #000000;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    #contactContainer {
+        display: inline;
+    }
+
+    .tools {
+        background-color: #aca3a3;
+        align-items: center;
+        color: #000000;
+        text-decoration: none none none;
+    }
+
+    h3 { 
+        font-size: 34px;
+        text-decoration: none;
+    }
+
+    .movie-container h5{
+        display: none;
+    }    
+}

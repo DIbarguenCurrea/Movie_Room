@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <title>Movie Room</title>
+</head>
+<body>
+  <header class="header">
+    <div class= "menu container">
+      <img id="img-logo" src="../assets/img/Logo.png" alt="logo"> <!--Hacer que el logo tenga animación por hacerle click y redireccionar al inicio de la pagina.-->
+      <a href="../index.html" class="logo">Movie Room</a>
+      <input type="checkbox" id="menu" />
+      <label for="menu">
+        <img src="../assets/img/menu.png" class="menu-icono" alt="menu">
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li> <a href="../index.html">Home</a></li>
+          <li> <a href="./createMovie.html">Create Movie</a></li>
+          <li> <a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>     
+  </header>
+      
+      <div id="contactContainer">
+         <div class="column">
+            <form id="contactForm">
+              <div class="boxInfo">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Enter your Name">
+              </div>
+              <div class="boxInfo">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" name="email" placeholder="name@example.com">
+              </div>
+              <div class="boxInfo">
+                <label for="request" class="form-label">Request</label>
+                <textarea type="description" class="form-control" name="request" rows="3" placeholder="Description"></textarea>
+              </div>
+              <div>
+                <input type="submit" class="button" value="Enviar">
+              </div>
+            </form>
+          </div>
+
+          <div class="column">          
+              <h5>Contáctenos</h5>
+              <p>En este momento no hay un nosotros. Estoy dirigiendo este proyecto solo. Así que cada comentario que proporciones, cualquier sugerencia que tengas y cualquier idea nueva que te guste compartir, no lo dudes, escribeme de inmediato.</p>          
+              <div class="social-media">
+                Social Media <br>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+        
+      <footer>
+        <div>
+          <h6>&copy; 2024 Movie Room. Todos los derechos reservados.</h6>
+        </div>
+      </footer>
+    
+      <script src="../public/bundle.js"></script>
+      <!-- <script src="../scripts/index.js"></script> -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+      
+</body>
+</html>

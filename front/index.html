@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Movie Room</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class= "menu container">
+        <img id="img-logo" src="./assets/img/Logo.png" alt="logo"> <!--Hacer que el logo tenga animación por hacerle click y redireccionar al inicio de la pagina.-->
+        <a href="./index.html" class="logo">Movie Room</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="./assets/img/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li> <a href="./index.html">Home</a></li>
+            <li> <a href="./enlaces/createMovie.html">Create Movie</a></li>
+            <li> <a href="./enlaces/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>     
+    </header>    
+
+    <h1>Peliculas</h1>
+
+    <section>
+      
+      <div>
+        <div id="cards-container">
+          <!-- Aqui van las peliculas -->
+        </div>
+      </div>
+    </section>
+    
+    <!-- Aqui quiero colocar un botón de "Ver Más", inicialmente mostrar 4 peliculas y luego con el botón mostrar las demás peliculas-->
+    
+    <footer>
+      <div>
+        <h6>&copy; 2024 Movie Room. Todos los derechos reservados.</h6>
+      </div>
+    </footer>
+
+    <script src="./public/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+  </html>
+ 
